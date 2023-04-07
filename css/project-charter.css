@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 13px;
+}
+
+/*căn chỉnh cho màn hình lớn*/
+@media (min-width: 992px) {
+  .w50 {
+    width: 50%;
+  }
+  .w25 {
+    width: 25%;
+  }
+  .w75 {
+    width: 75%;
+  }
+
+  #goals,
+  #team {
+    height: 350px;
+  }
+
+  #scopes {
+    height: 250px;
+  }
+
+  #timeline {
+    height: 615px;
+  }
+
+  #primary {
+    height: 250px;
+  }
+}
+
+/* Căn chỉnh cho table và mobile*/
+@media (max-width: 992px) {
+}

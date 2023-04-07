@@ -1,0 +1,53 @@
+@media (max-width: 575px) {
+  /*ảnh profile*/
+  #img-profile {
+    display: none;
+  }
+
+  /*navbar*/
+  .img-width {
+    display: none;
+  }
+  #navbar .d-flex {
+    flex-direction: column;
+  }
+  #navbar-link {
+    width: 100%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+  }
+
+  /*Mục tiêu và thông tin*/
+  #information-f {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /*certificate-img*/
+  #cert-img,
+  #cert-img2 {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  #cert-img img {
+    width: 90%;
+  }
+  #cert-img2 img {
+    width: 90%;
+  }
+
+  #cert-box {
+    flex-direction: column;
+  }
+
+  #cert-box2 {
+    padding-left: 0;
+    padding-top: 40px;
+    border-top: 1px solid red;
+  }
+
+  /*dự án*/
+  #project-card {
+    gap: 30px;
+  }
+}

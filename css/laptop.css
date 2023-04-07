@@ -1,0 +1,57 @@
+* {
+  font-family: sans-serif;
+  color: #495057;
+}
+
+/*Banner*/
+#banner {
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(../images/banner.jpg);
+  background-size: cover;
+}
+
+.banner-content {
+  height: 50vh;
+}
+
+/*image profile*/
+.img-width {
+  flex-basis: 320px;
+}
+
+#img-profile {
+  width: 160px;
+}
+
+/*job-info*/
+li::marker {
+  color: blue;
+}
+
+/*hobby*/
+
+#icons {
+  width: 60px;
+  height: 60px;
+}
+
+/* ngôn ngữ và kỹ năng */
+#skill {
+  flex-basis: 70px;
+  height: 3px;
+}
+
+/*certificate-img*/
+#cert-img img,
+#cert-img2 img {
+  width: 200px;
+  height: auto;
+}
+
+#cert-box2 {
+  padding-left: 20px;
+}

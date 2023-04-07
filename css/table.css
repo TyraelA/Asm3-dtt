@@ -1,0 +1,36 @@
+@media (max-width: 991px) and (min-width: 575px) {
+  /*ảnh profile*/
+  #img-profile {
+    display: none;
+  }
+
+  /*navbar*/
+  .img-width {
+    flex-basis: 100px;
+  }
+
+  /*lý lịch*/
+  #lylich-item {
+    flex-basis: 50%;
+  }
+
+  /*certificate-img*/
+  #cert-img,
+  #cert-img2 {
+    flex-direction: column;
+  }
+  #cert-img img {
+    width: 90%;
+  }
+  #cert-img2 img {
+    width: 40%;
+  }
+  #cert-box2 {
+    padding-left: 20px;
+  }
+
+  /*dự án*/
+  #project-card {
+    gap: 20px;
+  }
+}
